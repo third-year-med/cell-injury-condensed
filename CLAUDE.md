@@ -1,7 +1,8 @@
 # CLAUDE.md — a module of the Interactive Pathology Teaching Platform
 
 This repository is one module (a single `index.html`): **Cell Injury & Cell Death — Condensed** (module key `cellcondensed`,
-storage prefix `cc_`). It is an independent, ~50 % shorter high-yield version of `third-year-med/cell-injury-teaching-platform`,
+storage prefix `cc_`). Students see it under the PLAIN name ("Inflammation & Healing" / "Cell Injury & Cell Death" — no "Condensed" anywhere
+visible, user 2026-10-19); the module key keeps "condensed" (never rename keys). It is an independent, ~50 % shorter high-yield version of `third-year-med/cell-injury-teaching-platform`,
 built on 2026-10-18 from that module's packaged course with the same app code. The original module is unchanged and separate.
 
 The platform's decisions, the checklist for modules, the deployment steps, the testing workflow and the lessons learned are
