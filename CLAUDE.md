@@ -15,4 +15,6 @@ in the platform repository: `third-year-med/Interactive-pathology-platform` → 
   with `tools/module-release.js refresh` — do not edit it by hand.
 - A new build goes through the preview / compatibility check / go-live procedure (`docs/REBUILD.md`) and must keep the
   IDs of continuing topics, sections, questions, cases and images (they continue the original module's IDs).
+- 🎓 Viva Examination (2026-11-15, patch `viva`): the bank `cellcondensed-viva-bank.json` (89 questions `viva_cc_tNN_NN`, 5 marks each, ≥ 5 per topic,
+  16 picture questions) is delivered to the user and imported in ✏️ Edit master draft → 🎓 Viva → ⬆ Import viva bank — never committed.
 - Test changes on the real page with the platform repo's e2e tests (`CC_CONTENT_KEY` in the environment) before pushing.
